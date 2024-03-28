@@ -1,0 +1,108 @@
+* {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .header{
+    background-image: url("https://www.brightpower.com/wp-content/uploads/2021/04/NYCHA-Queensbridge-Solar-Bright-Power-1536x1024.jpg");
+    background-color: #255425;
+    width: 100%;
+    display: flex;
+    box-shadow: inset 0 0 0 1000px rgba(37, 84, 37, 0.5);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    overflow: hidden;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .credit {
+    text-align: right;
+    font-size: 10px;
+    font-weight: lighter;
+    font-style: italic;
+  }
+  
+  .flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .collapsible {
+    background-color: #ccc;
+    color: #000000;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    margin: 6px 0 0 0;
+    text-align: left;
+    outline: none;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+  }
+  
+  .collapsible:hover {
+    background-color: #8bb58b;
+    cursor: pointer;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #ddebdd;
+    margin: 0 0 6px 0;
+  }
+  
+  .agency {
+    border: 1px solid #000000;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 0 6px 0;
+  }
+  
+  .agency:hover {
+    background-color: #8bb58b;
+    cursor: pointer;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+  
+  .agency-name {
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  
+  
+  #instructions {
+    background-color: #255425;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
