@@ -11,4 +11,27 @@ for (i = 0; i < coll.length; i++) {
       content.style.display = "block";
     }
   });
-} 
+}
+
+// $(".collapsible").click(function () {
+//   $(".collapsible").css('background', '#679a67');
+// });
+
+// function expandContract() {
+//   const el = document.getElementById("expand-contract")
+//   el.classList.toggle('expanded')
+//   el.classList.toggle('collapsed')
+// }
+
+// Add active class (highlight button) to the button that is currently clicked
+// var header = document.getElementById("column-left");
+// var btns = header.getElementsByClassName("collapsible");
+// for (var i = 0; i < btns.length; i++) {
+//   btns[i].addEventListener("click", function () {
+//     var current = document.getElementsByClassName("active");
+//     if (current.length > 0) {
+//       current[0].className = current[0].className.replace(" active", "");
+//     }
+//     this.className += " active";
+//   });
+// }
