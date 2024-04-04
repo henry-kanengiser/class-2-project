@@ -13,6 +13,19 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+// Script to collapse/open the side panel
+/* Set the width of the sidebar to 30% (show it) */
+function openNav() {
+  document.getElementById("my-sidepanel").style.width = "30%";
+}
+
+/* Set the width of the sidebar to 0 (hide it) */
+function closeNav() {
+  document.getElementById("my-sidepanel").style.width = "0";
+  document.getElementbyId("my-map-container").style.width = "100%";
+} 
+
+
 // $(".collapsible").click(function () {
 //   $(".collapsible").css('background', '#679a67');
 // });

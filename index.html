@@ -25,8 +25,11 @@
 
 
     <!-- Content of the buttons starts here -->
-    <div class="flex-container">
+    <div class="sidepanel" id="my-sidepanel">
         <!-- Invitation to action -->
+        <button type="button" class="container-button" onclick="closeNav()">
+            ×
+        </button>
         <div id="instructions">
             Click on an agency to learn more.
         </div>
@@ -60,15 +63,15 @@
             <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/NYC-HPD.jpg">
             <p></p>
         </div>
-        <button type="button" class="container-button">
-            <
-        </button>
 
     </div>
 
+    <button type="button" class="reopen-container-button" onclick="openNav()">
+        >
+    </button>
 
     <!-- Map will eventually go here -->
-    <div class="map-container" >
+    <div class="map-container" id="my-map-container">
         <div class="map-placeholder" >
             Later, an interactive map will go here.
         </div>
