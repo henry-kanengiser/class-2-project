@@ -4,7 +4,7 @@
 
 
 .header {
-  background-image: url("https://herecomessolar.nyc/wp-content/uploads/2022/01/Aerial-final_page-0001-e1641828042853.jpg");
+  background-image: url("https://img.canarymedia.com/content/uploads/resized-yonkes-community-solar.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=677&q=80&w=1168&s=a404cca8bb07bc120bcc86d3aeccaa15");
   background-color: #255425;
   width: 100%;
   display: flex;
@@ -16,7 +16,7 @@
   overflow: hidden;
   height: 150px;
   background-size: cover;
-  background-position: center 16%;
+  background-position: center 26%;
   position: relative;
 }
 
@@ -58,7 +58,7 @@
 
 .sidepanel {
   /* Code from https://www.w3schools.com/howto/howto_js_collapse_sidepanel.asp */
-  height: 500px;      /* Specify a height */
+  height: 85%;      /* Specify a height */
   width: 30%;         /* 30% width - change this with JavaScript */
   position: fixed;    /* Stay in place */
   z-index: 1;         /* Stay on top */
