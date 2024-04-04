@@ -69,8 +69,9 @@
 .container-button {
   background-color: #ccc;
   width: 5%;
-  height: 25px;
+  height: 500px;
   border-radius: 6px;
+  align-self: self-end;
 }
 
 /* style for buttons when not selected */
