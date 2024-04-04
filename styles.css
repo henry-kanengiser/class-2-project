@@ -34,13 +34,6 @@
   font-style: italic;
 }
 
-.flex-container {
-  width: 30%;
-  display: flex;
-  float: left;
-  flex-direction: column;
-}
-
 .map-container {
   width: 68%;
   /* display: flex; */
@@ -59,12 +52,34 @@
   line-height: 500px;
 }
 
+/* Left side column with FAQ text and narrative. 
+    Eventually this will be collapsible to create more space for the interactive map */
+.flex-container {
+  width: 30%;
+  display: flex;
+  float: left;
+  flex-direction: column;
+  background-color: #e6e6e6;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 500px;
+}
+
+/* style for button that will collapse the flex container */
+.container-button {
+  background-color: #ccc;
+  width: 5%;
+  height: 25px;
+  border-radius: 6px;
+}
+
+/* style for buttons when not selected */
 .collapsible {
   background-color: #ccc;
   color: #000000;
   cursor: pointer;
   padding: 10px;
-  width: 100%;
+  width: 93%;
   border: 1px solid #000000;
   border-radius: 6px;
   margin: 6px 0 0 0;
@@ -75,20 +90,32 @@
   font-size: 15px;
 }
 
+/* style for button when hovering & when active using JSquery */
 .active, .collapsible:hover {
   background-color: #8bb58b;
   cursor: pointer;
 }
 
+/* Create icon that sits on the buttons and tells the user what to do */
+.collapsible:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
 
-/* .collapsible-collapsed {
-  background-color: #679a67;
-  cursor: pointer;
-} */
+/* Create icon that sits on the button when expanded and tells the user to close it */
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
+
 
 .content {
   padding: 0 5px 0 15px;
-  width: 95%;
+  width: 88%;
   display: none;
   overflow: hidden;
   background-color: #ddebdd;
