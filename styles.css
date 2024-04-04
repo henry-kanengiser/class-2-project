@@ -75,7 +75,7 @@
   font-size: 15px;
 }
 
-.collapsible:hover {
+.active, .collapsible:hover {
   background-color: #8bb58b;
   cursor: pointer;
 }
