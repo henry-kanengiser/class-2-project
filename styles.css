@@ -35,16 +35,24 @@
 }
 
 .flex-container {
-  width: 100%;
+  width: 30%;
   display: flex;
+  float: left;
   flex-direction: column;
 }
 
 .map-container {
-  width: 70%;
+  width: 68%;
   display: flex;
-  text-align: center;
+  float: right;
+  /* text-align: center; */
+  padding: 0 0 0 6px;
+  height: 400 px;
   background-color: #acbdf0;
+}
+
+#map-placeholder {
+  text-align: center;
 }
 
 .collapsible {
@@ -52,7 +60,7 @@
   color: #000000;
   cursor: pointer;
   padding: 10px;
-  width: 30%;
+  width: 100%;
   border: 1px solid #000000;
   border-radius: 6px;
   margin: 6px 0 0 0;
@@ -121,7 +129,7 @@
 #instructions {
   /* background-color: #255425; */
   background-size: cover;
-  text-align: left;
+  text-align: center;
   color: #255425;
   font-size: 12px;
   padding-top: 15px;
