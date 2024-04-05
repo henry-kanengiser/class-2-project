@@ -58,7 +58,7 @@
 
 .sidepanel {
   /* Code from https://www.w3schools.com/howto/howto_js_collapse_sidepanel.asp */
-  height: 85%;      /* Specify a height */
+  height: 85%;        /* Specify a height */
   width: 30%;         /* 30% width - change this with JavaScript */
   position: fixed;    /* Stay in place */
   z-index: 1;         /* Stay on top */
